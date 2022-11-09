@@ -1,0 +1,37 @@
+ //RESUME
+ <body>
+    <center>
+        <b><h2>Personal Information</h2></b>
+        <img src="c.jpg" alt="" height="200" width="250">
+        <p><b>Name:</b> Prathamesh Sawant  <br><br>
+        <b>DOB:</b>01-11-2001 <br><br>
+        <b>Email:</b>prathameshsawant7588@gmail.com <br><br>
+        <b>Contact No:</b>+917588699404 <br><br>
+        <b>Education Profile:</b>
+
+        <table cellspacing="5" cellpadding="5" border="2">
+            <tr>
+                <td>Exam</td>
+                <td>Board</td>
+                <td>Institution</td>
+                <td>Year</td>
+                <td>Percentage</td>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>SSC</td>
+                <td>N.E.S.N.</td>
+                <td>2018</td>
+                <td>94%</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>HSC</td>
+                <td>K.C.K.</td>
+                <td>2020</td>
+                <td>80%</td>
+            </tr>
+        </table>
+    </center>
+ </body>
+ </html>

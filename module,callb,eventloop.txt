@@ -1,0 +1,42 @@
+7th ex a
+////////////////////////////////////////////////
+Module in Node 
+index.js
+var myLogModule = require ('./module.js');
+myLogModule.name("Datta Meghe College Of Engineering");
+myLogModule.domain("B.E. in IT");
+
+
+module.js
+var detail = {
+    name: function (name){
+        console.log("Name of College:"+name);
+    },
+    domain:function (domain){
+        console.log("Degree:" +domain);
+    }
+};
+module.exports =detail;
+
+/////////////////////////////////////////////////
+Callback in node
+callback.js
+function readfile(){
+    var fs = require("fs");
+    var filedata = fs.readFileSync("input.txt");
+    console.log(filedata.toString());
+    console.log("End of Program Execution");
+}
+readfile();
+
+input.txt
+Hello Prathamesh Sawant
+Learn NodeJS Callback Function.
+
+////////////////////////////////////////////////
+eventloop in node
+console.log("This is the first statement");
+setTimeout(function(){
+    console.log("This is the second statement");
+    },1000);
+    console.log("This is the third statement");

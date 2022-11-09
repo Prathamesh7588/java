@@ -1,0 +1,36 @@
+8th ex 
+////////////////////////////////////////////////
+***********eventemitter in node*************
+eventemitter.js
+//Importing events
+const EventEmitter = require ("events");
+ 
+
+//Initializing event emitter instances
+var eventEmitter = new EventEmitter();
+
+var prathamesh1 =(msg) =>{
+    console.log("Message From Prathamesh1:"+msg);
+};
+
+var prathamesh2 =(msg) =>{
+    console.log("Message From Prathamesh2:"+msg);
+};
+
+//Registering Prathamesh1 and Prathamesh2
+eventEmitter.on("myEvent",prathamesh1);
+eventEmitter.on("myEvent",prathamesh1);
+eventEmitter.on("myEvent",prathamesh2);
+
+//Removing listener prathamesh1 that was 
+eventEmitter.removeListener("myEvent",prathamesh1);
+
+//Triggering myEvent
+eventEmitter.emit("myEvent","Event Occured");
+
+//Removing all the listners to myEvent
+eventEmitter.removeAllListeners("myEvent");
+
+//Triggering myEvent
+eventEmitter.emit("myEvent","Event Occured");
+

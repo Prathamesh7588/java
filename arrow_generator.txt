@@ -1,0 +1,30 @@
+/////arrow function
+ <p id="demo" style="font-family: castellar; font: size 35px;"></p>
+
+<script>
+    var hello;
+    hello =()=>{
+        return "Hi Prathamesh";
+    }
+    document.getElementById("demo").innerHTML=hello();
+</script>
+
+
+////generator function
+<script>
+     function * fun(){
+        yield 10;
+        yield 20;
+        yield 30;
+     }
+     var gen= fun();
+     document.write(gen.next().value);
+     document.write("<br>");
+
+     document.write(gen.next().value);
+     document.write("<br>");
+
+     document.write(gen.next().value);
+    
+      
+</script>

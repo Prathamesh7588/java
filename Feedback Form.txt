@@ -1,0 +1,93 @@
+Feedback form
+<body>
+    <div class="form-container">
+    <form action=""  > 
+<h3>FeedBack Us</h3>
+ 
+
+<!..start....>
+<label for="">Name:</label>
+<input type="text">
+
+<label for="email">Email:</label>
+<input type="email" name="" id="">
+
+<label for="#">Phone No:</label>
+<input type="number" name="Phone_NO" id="">
+
+<label for="">Suggestion</label>
+<textarea name="" id="" cols="1" rows="10" placeholder="Your Response"></textarea>
+
+ <input type="button" value="Submit">
+</form>    
+  </div>
+</body>
+
+
+
+
+css:
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: #d7ccc8;
+}
+ 
+
+.form-container{
+    height: 600px;
+    width: 600px;
+    margin: 50px auto;
+}
+
+.form-container form{
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: conic-gradient(from -45deg,pink,purple);
+    padding: 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: #ffff;
+
+}
+
+.form-container form h3{
+    text-align: center;
+    font-size: 2.5rems;
+    color: purple;
+}
+
+.form-container form label{
+    font-size: 1.3rem;
+    padding: 3px 0;
+    margin: 5px 0 5px 0;
+}
+
+.form-container form input,textarea{
+    padding: 4px;
+    border-radius: 20px;
+    margin:5px 0 5px 0;
+    border: none;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.form-container form input[type="button"]{
+align-self: flex-end;
+height:30px;
+width: 60px;
+font-size: 100%;
+}
+
+
+ 
+
+
+ 

@@ -1,0 +1,28 @@
+  //let var const
+ <body>
+    <h2>Redeclaring a variable Using var ,let const</h2>
+    <p class="demo">Using var [declared as 10 ,redeclared as 25]:</p>
+    <p id="domo1"></p>
+
+    <p class="demo">Using let [declared as 20 ,redeclared as 15]:</p>
+    <p id="domo2"></p>
+
+    <p class="demo">Using const [declared as 30 ,redeclared as 05]:</p>
+    <p id="domo3"></p>
+
+    <script>
+        var x= 10;
+        let y=20;
+        const z=30;
+        {
+            var x=25;
+            let y=15;
+            const z=05;
+        }
+        document.getElementById("demo1").innerHTML=x;
+        document.getElementById("demo2").innerHTML=y;
+        document.getElementById("demo3").innerHTML=z;
+    </script>
+
+ </body>
+ </html>
